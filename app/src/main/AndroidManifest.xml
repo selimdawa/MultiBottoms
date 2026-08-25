@@ -11,15 +11,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MainApp">
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:windowSoftInputMode="adjustResize">
+            android:name=".HomeActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".new1.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".new2.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".new2.BottomBarActivity" />
+        <activity android:name=".new2.TopBarActivity" />
+        <activity android:name=".new2.EqualBottomBarActivity" />
+        <activity android:name=".new2.FloatingTopBarActivity" />
+        <activity
+            android:name=".new3.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

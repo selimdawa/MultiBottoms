@@ -8,4 +8,11 @@
     <color name="mbn_count_background_color">#ff0000</color>
     <color name="mbn_ripple_color">#757575</color>
     <color name="mbn_shadow_color">#ffbbbbbb</color>
+
+    <color name="default_inactive_shape_color">#e5e5e5</color>
+    <color name="default_inactive_color">#212121</color>
+    <color name="default_shape_inactive_color">#888888</color>
+    <color name="default_badge_background_color">#f44336</color>
+    <color name="default_badge_text_color">#ffffff</color>
+
 </resources>
