@@ -8,7 +8,7 @@ interpolator = "1.0.0"
 lifecycle = "2.11.0"
 coroutines = "1.11.0"
 vanniktech = "0.37.0"
-navigation = "2.9.8"
+navigation = "2.10.0"
 navigationRuntimeKtx = "2.9.8"
 
 [libraries]
@@ -27,3 +27,4 @@ androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navig
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 vanniktech = { id = "com.vanniktech.maven.publish", version.ref = "vanniktech" }
+
